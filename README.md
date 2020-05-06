@@ -42,7 +42,7 @@ in our code, the patch must be square (length = width).
 If you encounter the bugs while using this code, please do not hesitate to contact us.
  
  (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany. <br>
-　                 Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.               
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.               
      danfeng.hong@dlr.de   
      hongdanfeng1989@gmail.com
 
