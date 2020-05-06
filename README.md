@@ -19,7 +19,7 @@ More specifically, it is detailed as follow
      volume={28},
      number={4},
      pages={1923--1938},
-     year={April 2019},
+     year={2019},
      publisher={IEEE}}
 
 
@@ -41,8 +41,8 @@ in our code, the patch must be square (length = width).
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
  
- (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany.  
-                   Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.               
+ (c) Danfeng Hong,　Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany.  
+　　　　　　　　　　　Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.               
      danfeng.hong@dlr.de   
      hongdanfeng1989@gmail.com
 
