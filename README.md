@@ -5,7 +5,7 @@
 3) we correct a problem that the final abundance maps can not be imshown correctly.
 
 
-The code in this toolbox implements the "An augmented linear mixing model to address spectral variability for hyperspectral unmixing".
+The code in this toolbox implements the ["An augmented linear mixing model to address spectral variability for hyperspectral unmixing"](https://ieeexplore.ieee.org/document/8528557).
 More specifically, it is detailed as follow
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
