@@ -29,7 +29,7 @@ How to use it?
 ---------------------
 
 Directly run demo.m to reproduce the results on the synthetic data, which exists in the aforementioned paper.  
-Note that the simulated data can be downloaded from the link (https://drive.google.com/open?id=1r1a6hP8fkwnMFGG2ATG5PM_I3gHVG-3U, "data")
+Note that the simulated data can be downloaded from the [link] (https://drive.google.com/open?id=1r1a6hP8fkwnMFGG2ATG5PM_I3gHVG-3U)
 
 If you want to run the code in your own data, you can accordingly change the input (e.g., data) and tune the parameters.
 Please note that 
