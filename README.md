@@ -42,9 +42,9 @@ in our code, the patch must be square (length = width).
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
 
- (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany; <br>
-                   Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.<br>
-     danfeng.hong@dlr.de<br>     
+ (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany;  
+                   Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.  
+     danfeng.hong@dlr.de      
      hongdanfeng1989@gmail.com
 
 Licensing
@@ -61,7 +61,6 @@ You should have received a copy of the GNU General Public License along with thi
 Contact Information:
 --------------------
 
-Danfeng Hong: hongdanfeng1989@gmail.com<br>
-
-Danfeng Hong is with the Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany; <br>
+Danfeng Hong: hongdanfeng1989@gmail.com  
+Danfeng Hong is with the Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany;  
                 with the Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany. 
