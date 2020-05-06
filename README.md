@@ -8,8 +8,6 @@
 The code in this toolbox implements the "An augmented linear mixing model to address spectral variability for hyperspectral unmixing".
 More specifically, it is detailed as follow
 
-
-
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
      @article{hong2019augmented,
@@ -25,12 +23,13 @@ More specifically, it is detailed as follow
 
 System-specific notes
 ---------------------
-The code was tested in Matlab R2016a version on Windows 10 machines.
+The code was tested in Matlab R2016a or higher versions on Windows 10 machines.
 
 How to use it?
 ---------------------
 
-Directly run demo.m to reproduce the results on the synthetic data, which exists in the aforementioned paper.
+Directly run demo.m to reproduce the results on the synthetic data, which exists in the aforementioned paper.  
+Note that the simulated data can be downloaded from the link (https://drive.google.com/open?id=1r1a6hP8fkwnMFGG2ATG5PM_I3gHVG-3U)
 
 If you want to run the code in your own data, you can accordingly change the input (e.g., data) and tune the parameters.
 Please note that 
@@ -41,7 +40,7 @@ in our code, the patch must be square (length = width).
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
 
- (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany; <br>
+(c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany; <br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; danfeng.hong@dlr.de      
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; hongdanfeng1989@gmail.com
