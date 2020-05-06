@@ -25,6 +25,7 @@ More specifically, it is detailed as follow
 
 System-specific notes
 ---------------------
+
 The code was tested in Matlab R2016a version on Windows 10 machines.
 
 How to use it?
@@ -40,10 +41,10 @@ in our code, the patch must be square (length = width).
 3) if the endmemebers are not given in advance, the code would automatically extract the endmembers from HSI using VCA [1].
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
- 
- (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.               
-     danfeng.hong@dlr.de   
+
+ (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany; <br>
+                   Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.<br>
+     danfeng.hong@dlr.de<br>     
      hongdanfeng1989@gmail.com
 
 Licensing
@@ -60,7 +61,7 @@ You should have received a copy of the GNU General Public License along with thi
 Contact Information:
 --------------------
 
-Danfeng Hong: hongdanfeng1989@gmail.com
+Danfeng Hong: hongdanfeng1989@gmail.com<br>
 
-Danfeng Hong is with the Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany  
+Danfeng Hong is with the Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany; <br>
                 with the Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany. 
