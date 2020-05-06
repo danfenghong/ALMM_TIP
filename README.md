@@ -1,4 +1,5 @@
-Please note that this is an updated version (ALMM_v1), the main improvement lies in the following three parts:
+**Please note that this is an updated version (ALMM_v1), the main improvement lies in the following three parts:**
+
 1) the updated code is able to input non-grid HSI (e.g., the size is 107 * 107, not only limiting to e.g., 100 * 100);
 2) a blind ALMM code is added in this toolbox as well, which enables simultaneous abundance estimation and endmember extraction;
 3) we correct a problem that the final abundance maps can not be imshown correctly.
@@ -40,10 +41,13 @@ in our code, the patch must be square (length = width).
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
  
-% (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany.
-%                   Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany. 
-%     danfeng.hong@dlr.de
-%     hongdanfeng1989@gmail.com
+ (c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany.
+ 
+                   Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany. 
+                   
+     danfeng.hong@dlr.de
+     
+     hongdanfeng1989@gmail.com
 
 Licensing
 ---------
@@ -62,4 +66,5 @@ Contact Information:
 Danfeng Hong: hongdanfeng1989@gmail.com
 
 Danfeng Hong is with the Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany
+
                 with the Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany. 
