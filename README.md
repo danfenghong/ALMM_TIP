@@ -29,9 +29,9 @@ How to use it?
 ---------------------
 
 Directly run demo.m to reproduce the results on the synthetic data, which exists in the aforementioned paper.  
-Note that the simulated data can be downloaded from
+Note that the simulated data can be downloaded from  
 [google drive](https://drive.google.com/open?id=1r1a6hP8fkwnMFGG2ATG5PM_I3gHVG-3U)  
-[baiduyun](https://pan.baidu.com/s/1ABbWgkEkzp2Q02yjeYjxvw): access code: ivb0.
+[baiduyun](https://pan.baidu.com/s/1ABbWgkEkzp2Q02yjeYjxvw): ivb0 (access code).
 
 If you want to run the code in your own data, you can accordingly change the input (e.g., data) and tune the parameters.
 Please note that 
