@@ -7,17 +7,32 @@ Please note that this is an updated version (ALMM_v1), the main improvement lies
 The code in this toolbox implements the "An augmented linear mixing model to address spectral variability for hyperspectral unmixing".
 More specifically, it is detailed as follow
 
-@article{hong2019augmented,
-  title={An augmented linear mixing model to address spectral variability for hyperspectral unmixing},
-  author={Hong, Danfeng and Yokoya, Naoto and Chanussot, Jocelyn and Zhu, Xiao Xiang},
-  journal={IEEE Trans. Image Process.},
+@article{hong2019augmented,\\
+  title={An augmented linear mixing model to address spectral variability for hyperspectral unmixing},\\
+  author={Hong, Danfeng and Yokoya, Naoto and Chanussot, Jocelyn and Zhu, Xiao Xiang},\\
+  journal={IEEE Trans. Image Process.},\\
   volume={28},
   number={4},
   pages={1923--1938},
   year={2019},
   publisher={IEEE}.
 }
+
+**If you use/adapt our code in your work (either as a stand-alone tool or as a component of any algorithm),
+please cite our paper.**
+
+     @article{zhang2018,
+     title={Missing data reconstruction in remote sensing image with a unified spatial--temporal--spectral deep convolutional neural network},
+     author={Zhang, Qiang and Yuan, Qiangqiang and Zeng, Chao and Li, Xinghua and Wei, Yancong},
+     journal={IEEE Trans. Geosci. Remote Sens.},
+     volume={56},
+     number={8},
+     pages={4274--4288},
+     year={Aug. 2018},
+     publisher={IEEE}}
+     
 and
+
 @inproceedings{hong2017learning,
   title={Learning a low-coherence dictionary to address spectral variability for hyperspectral unmixing},
   author={Hong, Danfeng and Yokoya, Naoto and Chanussot, Jocelyn and Zhu, Xiao Xiang},
