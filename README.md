@@ -19,14 +19,14 @@ Citation
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
      @article{hong2019augmented,
-     title={An augmented linear mixing model to address spectral variability for hyperspectral unmixing},
-     author={Hong, Danfeng and Yokoya, Naoto and Chanussot, Jocelyn and Zhu, Xiao Xiang},
-     journal={IEEE Trans. Image Process.},
-     volume={28},
-     number={4},
-     pages={1923--1938},
-     year={2019},
-     publisher={IEEE}}
+     title     = {An Augmented Linear Mixing Model to Address Spectral Variability for Hyperspectral Unmixing},
+     author    = {D. Hong and N. Yokoya and J. Chanussot and X. Zhu},
+     journal   = {IEEE Trans. Image Process.},
+     volume    = {28},
+     number    = {4},
+     pages     = {1923--1938},
+     year      = {2019},
+     publisher = {IEEE}}
 
 
 System-specific notes
