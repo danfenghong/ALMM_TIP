@@ -46,7 +46,7 @@ Please note that
 1) the shape of the input matrix.
 2) when you are running the code in parallel, that is, you have to seperate the input HSI into some patches,
 in our code, the patch must be square (length = width).
-3) if the endmemebers are not given in advance, the code would automatically extract the endmembers from HSI using VCA.
+3) if the endmemebers are not given in advance, the code would automatically extract the endmembers from HSI using VCA [1].
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
 
