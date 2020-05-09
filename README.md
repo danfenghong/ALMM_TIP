@@ -61,7 +61,7 @@ Codes for the SUnSAL can be found in the link of http://www.lx.it.pt/~bioucas/pu
 If you want to use the codes and data mentioned above, please cite the corresponding articles as well.
 In addition, please feel free to contact me if you are interested in the other datasets or codes.
 
-References:
+References:  
 [1] J.M. Nascimento, J.M. Bioucas-Dias. "Vertex component analysis: A fast algorithm to unmix hyperspectral data." IEEE transactions on Geoscience and Remote Sensing, 2005, 43(4), pp.898-910.  
 [2] J.M. Bioucas-Dias, M.A. Figueiredo. "Alternating direction algorithms for constrained sparse regression: Application to hyperspectral unmixing." In proc. WHISPERS, 2010, pp. 1-4.  
 [3] L. Drumetz, M.A. Veganzones, S. Henrot, R. Phlypo, J. Chanussot and C. Jutten. "Blind hyperspectral unmixing using an extended linear mixing model to address spectral variability." IEEE Transactions on Image Processing, 2016, 25(8), pp.3890-3905.  
