@@ -13,6 +13,8 @@ Danfeng Hong, Naoto Yokoya, Jocelyn Chanussot, Xiaoxiang Zhu
 The code in this toolbox implements the ["An augmented linear mixing model to address spectral variability for hyperspectral unmixing"](https://ieeexplore.ieee.org/document/8528557).
 More specifically, it is detailed as follow
 
+![alt text](./workflow_RS.png)
+
 Citation
 ---------------------
 
