@@ -1,3 +1,8 @@
+# An Augmented Linear Mixing Model to Address Spectral Variability for Hyperspectral Unmixing
+
+Danfeng Hong, Naoto Yokoya, Jocelyn Chanussot, Xiaoxiang Zhu
+---------------------
+
 **Please note that this is an updated version (ALMM_v1), the main improvement lies in the following three parts:**
 
 1) the updated code is able to input non-grid HSI (e.g., the size is 107 * 107, not only limiting to e.g., 100 * 100);
@@ -7,6 +12,9 @@
 
 The code in this toolbox implements the ["An augmented linear mixing model to address spectral variability for hyperspectral unmixing"](https://ieeexplore.ieee.org/document/8528557).
 More specifically, it is detailed as follow
+
+Citation
+---------------------
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
@@ -41,11 +49,6 @@ in our code, the patch must be square (length = width).
 3) if the endmemebers are not given in advance, the code would automatically extract the endmembers from HSI using VCA.
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
-
-(c) Danfeng Hong, Remote Sensing Technology Institute (IMF), German Aerospace Center (DLR), Germany; <br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Singnal Processing in Earth Oberservation (SiPEO), Technical University of Munich (TUM), Germany.<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; danfeng.hong@dlr.de      
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; hongdanfeng1989@gmail.com
 
 Licensing
 ---------
