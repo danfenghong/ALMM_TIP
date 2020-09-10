@@ -20,6 +20,8 @@ Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
+Danfeng Hong, Naoto Yokoya, Jocelyn Chanussot, Xiao Xiang Zhu. An Augmented Linear Mixing Model to Address Spectral Variability for Hyperspectral Unmixing, IEEE Transactions on Image Processing, 2019, 28(4): 1923-1938.
+
      @article{hong2019augmented,
      title     = {An Augmented Linear Mixing Model to Address Spectral Variability for Hyperspectral Unmixing},
      author    = {D. Hong and N. Yokoya and J. Chanussot and X. Zhu},
