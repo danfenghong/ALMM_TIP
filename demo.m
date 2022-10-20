@@ -47,33 +47,35 @@ param.eta  = 5e-3;
 param.mk   = 10; % the length or width of the patch (square)
 maxiter = 100;
 
+type = 'noBlind';  %  'noBlind' or  'Blind'
 %% run ALMM to unmix HSI
 
-if ~exist('A_true','var')
-    
-    [A_est, S_est, B_est, E_est, ~, ~, AB_map] = ALMM(Y3d, endmembers, E_init, param, maxiter, 'noBlind');
-    
-    %% compute ARMSE
-    ARMSE_ALMM = ARMSE(A_est(index, :),A_truth_patch);
-    
-    %% imshow abundance maps
-    for  i = 1 : size(AB_map, 3)
-        figure; imshow(AB_map(:, :, i), []); colormap jet
-    end
-    
-else
-    [A_est, S_est, B_est, E_est, A_truth_patch, EM_est, AB_map] = ALMM(Y3d, endmembers, E_init, param, maxiter, 'Blind', A_true);
-    
-    %% compute ARMSE for abundances; SAD and SID for endmembers
-    ARMSE_ALMM = ARMSE(A_est(index, :),A_truth_patch); 
-    SAD_ALMM = SadEval(EM_est(:, index), M); 
-    SID_ALMM = SIDEval(EM_est(:, index), M); 
-    
-    %% imshow abundance maps
-    for  i = 1 : size(AB_map, 3)
-        figure; imshow(AB_map(:, :, i), []); colormap jet
-    end
-    
+switch type
+    case 'noBlind'
+        tstart = clock;
+        [A_est, S_est, B_est, E_est, A_truth_patch, ~, AB_map] = ALMM(Y3d, endmembers, E_init, param, maxiter, 'noBlind', A_true);
+        ttime = etime(clock,tstart);
+        %% compute ARMSE
+        ARMSE_ALMM = ARMSE(A_est(index, :),A_truth_patch);
+        
+        %% imshow abundance maps
+        for  i = 1 : size(AB_map, 3)
+            figure; imshow(AB_map(:, :, i), []); colormap jet
+        end
+        
+    case 'Blind'
+        [A_est, S_est, B_est, E_est, A_truth_patch, EM_est, AB_map] = ALMM(Y3d, endmembers, E_init, param, maxiter, 'Blind', A_true);
+        
+        %% compute ARMSE for abundances; SAD and SID for endmembers
+        ARMSE_ALMM = ARMSE(A_est(index, :),A_truth_patch);
+        SAD_ALMM = SadEval(EM_est(:, index), M);
+        SID_ALMM = SIDEval(EM_est(:, index), M);
+        
+        %% imshow abundance maps
+        for  i = 1 : size(AB_map, 3)
+            figure; imshow(AB_map(:, :, i), []); colormap jet
+        end
+        
 end
 
 
